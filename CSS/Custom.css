@@ -28,6 +28,10 @@ li{
 	font-size: 18px;
 }
 
+p{
+	font-size: 18px;
+}
+
 header{
     height: 100vh;
     background-image: url("../images/goldenGate.jpg");
@@ -67,3 +71,59 @@ header .content{
   background-color: #fff6;
   padding: 5%;
 }
+
+/*Education*/
+
+#education #CalPoly{
+	display: grid;
+	width: 100%;
+	grid-gap: 20px;
+	align-content: center ;
+	grid-template-columns: 1fr 1fr ;
+}
+
+#CalPoly .master{
+	display: inline;
+	grid-area: content;
+	text-align: left ;
+  	vertical-align: middle;
+  	grid-column: 1 / 2;
+}
+
+#CalPoly .bachelor{
+	display: inline;
+	grid-area: content;
+	text-align: left ;
+  	vertical-align: middle;
+  	grid-column: 2 / 2;
+}
+
+
+/*About me*/
+
+#about #soccer{
+	display: grid;
+	width: 100%;
+	grid-gap: 20px;
+	align-content: center ;
+	grid-template-columns: 2fr 1fr ;
+	grid-template-areas: 
+		"graphic content"
+		;
+}
+
+#soccer .content{
+	display: inline;
+	  grid-area: content;
+	  text-align: left ;
+	vertical-align: middle;
+	grid-column: 1 / 2;
+  }
+#soccer img{
+	display: inline;
+	  grid-area: graphic;
+	  border-radius: 20% ;
+	  width: 90%;
+	vertical-align: middle;
+	grid-column: 2 / 2;
+  }
