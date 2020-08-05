@@ -11,10 +11,15 @@ section{
 
 h1{
 	color: #604848;
-	font-size: 60px;
+	font-size: 40px;
 }
 
 h3{
+	color: #604848;
+	font-size: 25px;
+}
+
+h4{
 	color: #604848;
 	font-size: 20px;
 }
@@ -35,12 +40,12 @@ header{
 
 header h1{
 	font-weight: 600;
-	font-size: 40px;
+	font-size: 70px;
 	color: #333;
 }
 header h3{
 	font-weight: 600;
-	font-size: 20px;
+	font-size: 30px;
 	color: #333;
 }
 
