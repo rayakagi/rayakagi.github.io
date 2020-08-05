@@ -49,12 +49,12 @@ header{
 header h1{
 	font-weight: 600;
 	font-size: 70px;
-	color: #333;
+	color: black;
 }
 header h3{
 	font-weight: 600;
 	font-size: 30px;
-	color: #333;
+	color: black;
 }
 
 header ul{
@@ -74,12 +74,13 @@ header .content{
 
 /*Education*/
 
+
 #education #CalPoly{
 	display: grid;
 	width: 100%;
 	grid-gap: 20px;
 	align-content: center ;
-	grid-template-columns: 1fr 1fr ;
+	grid-template-columns: 1fr 1fr;
 }
 
 #CalPoly .master{
@@ -98,8 +99,11 @@ header .content{
   	grid-column: 1 / 2;
 }
 
+/*Experience*/
+
 
 /*About me*/
+
 
 #about #soccer{
 	display: grid;
