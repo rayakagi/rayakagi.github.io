@@ -127,3 +127,30 @@ header .content{
 	vertical-align: middle;
 	grid-column: 2 / 2;
   }
+
+  #about #hiking{
+	display: grid;
+	width: 100%;
+	grid-gap: 20px;
+	align-content: center ;
+	grid-template-columns: 1fr 2fr ;
+	grid-template-areas: 
+		"graphic content"
+		;
+}
+
+#hiking .content{
+	display: inline;
+	  grid-area: content;
+	  text-align: left ;
+	vertical-align: middle;
+	grid-column: 1 / 2;
+  }
+#hiking img{
+	display: inline;
+	  grid-area: graphic;
+	  border-radius: 20% ;
+	width: 90%;
+	vertical-align: middle;
+	grid-column: 2 / 2;
+  }
