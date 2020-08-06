@@ -1,3 +1,9 @@
+/*Solid Border*/
+
+#solid{
+	border-top: 10px solid black;
+}
+
 footer{
     padding-left: 10%;
     padding-right: 10%;
