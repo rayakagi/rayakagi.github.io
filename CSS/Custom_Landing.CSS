@@ -47,13 +47,13 @@ body {
 #content h1{
 	font-weight: 600;
 	font-size: 50px;
-    color: black;
+    color: white;
     text-align: left ;
 }
 #content h3{
 	font-weight: 600;
 	font-size: 35px;
-    color: black;
+    color: white;
     text-align: left ;
 }
 #content ul{
@@ -65,7 +65,7 @@ body {
   display: inline-block ;
 }
 #content .top{
-  background-color: #fff6;
+  /* background-color: #fff6; */
   padding: 5%;
 }
 
