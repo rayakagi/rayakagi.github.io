@@ -1,89 +1,62 @@
 
 
-/* Basic Structure */
-
-body {
-	text-align: center;				/* This is a hack for older browsers to center the page */
-	background-color: #eee;
-	color: white;
-}
-
-#container {
-	margin: 0 auto; 				/* This centers the page in modern browsers */
-	text-align: left; 				/* This is a hack for older browsers to center the page */
-	width: 960px; 					/* This sets our total page width */
-	background-color: blue;
-}
-
-#header {
-	width: 960px;					/* This sets the header to stretch the full page width */
-	background-color: aqua;
-	height: 100px;
-}
-
-#navigation li {
-	display: inline; 				/* Make our navigation display in a line */
-}
-
-
 .wrapper {
     display: flex;
-    justify-content: flex;
-}
-/* Content */
+    justify-content: space-between;
 
-.content {
-	float: right;					/* This causes the content to move to the right */
-    width: 75%;					/* We need to set the width whenever we float an element */
-    height: 100vh;
     background-image: url("../images/goldenGateBW.jpg");
     background-position: center ;
 	-webkit-background-size: cover;
 	-moz-background-size: cover ;
 	background-size: cover ;
-	-o-background-size: cover ;
-	display: grid;
+    -o-background-size: cover ;
 	align-content: center top;
     color: black;
-    text-align: left ;
+}
+  
+.main,
+.sidebar {
+    border: transparent;
+    padding: 15px;
+    background-color: white;
+}
+  
+  /* Main section */
+.main {
+    width: 75%;
+    height: 150vh;
+    background-color: transparent;
 }
 
-.content h1{
-	font-weight: 600;
-	font-size: 55px;
+.main .top{
+    /* background-color: #fff6; */
+    background-color: transparent;
+    padding: 4%;
+}
+
+.top h1{
+    font-weight: 600;
+    font-size: 55px;
     color: white;
 }
-.content h3{
-	font-weight: 600;
-	font-size: 35px;
+
+.top h3{
+    font-weight: 600;
+    font-size: 35px;
     color: white;
 }
-content ul{
-	margin-top: 30px;
-	padding-left: 0px ;
-	list-style-type: none;
-}
-content li{
-  display: inline-block ;
-}
-content .top{
-  /* background-color: #fff6; */
-  background-color: transparent;
-  padding: 4%;
-}
 
-
-
-/* sideBar */
-
-.sideBar {
-    float: left; 					/* This causes the sidebar to move to the left */
-    width: 25%; 					/* We need to set the width whenever we float an element */
-    background-color: rgba(205, 0, 0, 0.69); 
+/* Sidebar section */
+.sidebar {
+    width: 25%;
     height: 100vh;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: rgba(205, 0, 0, 0.69);
 }
 
-.sideBar h1{
+.sidebar h1{
     font-size: 35px;
     text-align: center;
 
@@ -92,69 +65,41 @@ content .top{
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.sideBar h3{
+.sidebar h3{
 	color: white;
     font-size: 25px;
-    text-align: left
+    text-align: center;
     color: #FFFFFF;
 
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.sideBar h4{
+.sidebar h4{
 	color: white;
-	font-size: 20px;
+    font-size: 20px;
+    text-align: left;
 }
 
-.sideBar img{
+.sidebar img{
 	grid-area: graphic;
 	border-radius: 50% ;
 	max-width: 250px;
 	vertical-align: middle;
-  }
+}
 
-
-
-#footer {
-	clear: both; 					/* This makes sure that the footer clears both the sidebar and content floats */
-	width: 960px;					/* This sets the footer to stretch the full page width */
-	background-color: black;
-	width: 960px;
+.body {
+    background-color: #ccc;
+    font-family: sans-serif;
+    padding: 10px;
 }
 
 
 
 
-/*Side Bar*/
 
-/*SideBar{
-    height: 100vh;
-    background-image: url("../images/goldenGate.jpg");
-	background-position: center ;
-	-webkit-background-size: cover;
-	-moz-background-size: cover ;
-	background-size: cover ;
-	-o-background-size: cover ;
-	text-align: center ;
-	display: grid;
-	align-content: center ;
-	color: black;
-}
 
-SideBar h1{
-	color: white;
-	font-size: 25px;
-}
 
-SideBar h3{
-	color: white;
-	font-size: 20px;
-}
 
-SideBar h4{
-	color: white;
-	font-size: 15px;
-}
 
 
 /* Carousel */
