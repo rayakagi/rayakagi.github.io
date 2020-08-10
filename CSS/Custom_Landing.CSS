@@ -31,30 +31,29 @@ body {
 
 #content {
 	float: right;					/* This causes the content to move to the right */
-	width: 75%;					/* We need to set the width whenever we float an element */
+    width: 75%;					/* We need to set the width whenever we float an element */
+    height: 100vh;
     background-image: url("../images/goldenGateBW.jpg");
     background-position: center ;
 	-webkit-background-size: cover;
 	-moz-background-size: cover ;
 	background-size: cover ;
 	-o-background-size: cover ;
-	text-align: center ;
 	display: grid;
-	align-content: center ;
-	color: black;
+	align-content: center top;
+    color: black;
+    text-align: left ;
 }
 
 #content h1{
 	font-weight: 600;
-	font-size: 50px;
+	font-size: 55px;
     color: white;
-    text-align: left ;
 }
 #content h3{
 	font-weight: 600;
 	font-size: 35px;
     color: white;
-    text-align: left ;
 }
 #content ul{
 	margin-top: 30px;
@@ -65,8 +64,9 @@ body {
   display: inline-block ;
 }
 #content .top{
-  background-color: #fff6;
-  padding: 5%;
+  /* background-color: #fff6; */
+  background-color: transparent;
+  padding: 4%;
 }
 
 
@@ -106,7 +106,7 @@ body {
 #sideBar img{
 	grid-area: graphic;
 	border-radius: 50% ;
-	max-width: 300px;
+	max-width: 250px;
 	vertical-align: middle;
   }
 
@@ -157,7 +157,7 @@ SideBar h4{
 /* Carousel */
 
 @keyframes tonext {
-    75% {
+    70% {
       left: 0;
     }
     95% {
@@ -202,10 +202,11 @@ SideBar h4{
   }
   
   body {
-    max-width: 37.5rem;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0 1.25rem;
     font-family: 'Lato', sans-serif;
+    
   }
   
   * {
@@ -238,20 +239,32 @@ SideBar h4{
   }
   
   .carousel {
-    float: right;					/* This causes the content to move to the right */
-	width: 75%;					/* We need to set the width whenever we float an element */
+	float: right;					/* This causes the content to move to the right */
+    width: 75%;					/* We need to set the width whenever we float an element */
+    height: 100vh;
+    background-image: url("../images/goldenGateBW.jpg");
+    background-position: center ;
+	-webkit-background-size: cover;
+	-moz-background-size: cover ;
+	background-size: cover ;
+	-o-background-size: cover ;
+	display: grid;
+	align-content: center top;
+    color: black;
+    text-align: left ;
     position: relative;
-    padding-top: 75%;
+    padding-top: 50%;
     filter: drop-shadow(0 0 10px #0003);
     perspective: 100px;
+    /*margin: 2%; */
   }
   
   .carousel__viewport {
     position: absolute;
-    top: 25%;
-    right: 15%;
-    bottom: 25%;
-    left: 15%;
+    top: 25%;       /*Changes top size of slide*/
+    right: 15%;       /*Changes right size of slide*/
+    bottom: 15%;       /*Changes bottom size of slide*/
+    left: 15%;       /*Changes left size of slide*/
     display: flex;
     overflow-x: scroll;
     counter-reset: item;
@@ -263,12 +276,12 @@ SideBar h4{
     position: relative;
     flex: 0 0 100%;
     width: 100%;
-    background-color: #f99;
+    background-color: rgb(165, 165, 165);
     counter-increment: item;
   }
   
   .carousel__slide:nth-child(even) {
-    background-color: #99f;
+    background-color: rgb(88, 88, 88);
   }
   
   .carousel__slide:before {
@@ -337,6 +350,7 @@ SideBar h4{
     border-radius: 50%;
     font-size: 0;
     transition: transform 0.1s;
+    
   }
   
   .carousel::before,
@@ -346,10 +360,10 @@ SideBar h4{
     position: absolute;
     top: 0;
     margin-top: 37.5%;
-    width: 4rem;
-    height: 4rem;
+    width: 4rem;            /*width of next and previous buttons*/
+    height: 4rem;            /*height of next and previous buttons*/
     transform: translateY(-50%);
-    border-radius: 50%;
+    border-radius: 50%;     /*makes it a circle*/ 
     font-size: 0;
     outline: 0;
   }
