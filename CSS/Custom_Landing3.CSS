@@ -87,7 +87,8 @@
 .sidebar img{
 	grid-area: graphic;
 	border-radius: 50% ;
-    max-width: 75%;
+    width: 75%;
+    height: 75%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -97,17 +98,20 @@
 a {
     text-decoration: none;
     color: white;
+    
 }
 
 a:hover {
     text-shadow: -.5px -.5px 0 white,
                 .5px .5px white;
+    border: 1px solid white;
+    padding: 5px;
 }
 
 .body {
     background-color: #ccc;
     font-family: sans-serif;
-    padding: 10px;
+    padding: 15px;
 }
 
 
