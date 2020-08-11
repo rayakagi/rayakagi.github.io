@@ -98,13 +98,12 @@
 a {
     text-decoration: none;
     color: white;
-    
 }
 
 a:hover {
     text-shadow: -.5px -.5px 0 white,
                 .5px .5px white;
-    border: 1px solid white;
+    /*border: 1px solid white;*/
     padding: 5px;
 }
 
