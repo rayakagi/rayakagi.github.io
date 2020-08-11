@@ -154,7 +154,6 @@
     margin: 0 auto;
     padding: 0 1.25rem;
     font-family: 'Lato', sans-serif;
-    
   }
   
   * {
@@ -199,10 +198,10 @@
   
   .carousel__viewport {
     position: absolute;
-    top: 15%;       /*Changes top size of slide*/
-    right: 15%;       /*Changes right size of slide*/
-    bottom: 15%;       /*Changes bottom size of slide*/
-    left: 15%;       /*Changes left size of slide*/
+    top: 0%;       /*Changes top size of slide*/
+    right: 0%;       /*Changes right size of slide*/
+    bottom: 0%;       /*Changes bottom size of slide*/
+    left: 0%;       /*Changes left size of slide*/
     display: flex;
     overflow-x: scroll;
     counter-reset: item;
@@ -267,7 +266,7 @@
   
   .carousel__navigation {
     position: absolute;
-    right: 0;
+    right: 0px;
     bottom: 0;
     left: 0;
     text-align: center;
