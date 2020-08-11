@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
 
-    background-image: url("../images/goldenGateBW.jpg");
+    background-image: url("../images/goldenGate.jpg");
     background-position: center ;
 	-webkit-background-size: cover;
 	-moz-background-size: cover ;
@@ -55,7 +55,7 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    background-color: rgba(205, 0, 0, 0.69);
+    background-color: rgba(150, 0, 0, 0.69);
 }
 
 .sidebar h1{
