@@ -1,0 +1,166 @@
+
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-image: url("../images/goldenGate.jpg");
+    background-position: center ;
+	-webkit-background-size: cover;
+	-moz-background-size: cover ;
+	background-size: cover ;
+    -o-background-size: cover ;
+	align-content: center top;
+    color: black;
+}
+
+.main,
+.sidebar {
+    border: transparent;
+    padding: 15px;
+    background-color: white;
+}
+  
+  /* Main section */
+
+.main {
+    width: 75%;
+    height: 100vh;
+    background-color: transparent;
+}
+
+.main .top{
+    /* background-color: #fff6; */
+    background-color: transparent;
+    padding: 4%;
+}
+
+.top h1{
+    font-weight: 600;
+    font-size: 55px;
+    color: white;
+    text-align: left;
+}
+
+.top h3{
+    font-weight: 600;
+    font-size: 35px;
+    color: white;
+    text-align: right;
+}
+
+
+/* Sidebar section */
+.sidebar {
+    width: 25%;
+    height: 100vh;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: rgba(150, 0, 0, 0.69);
+}
+
+.sidebar h1{
+    font-size: 35px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.sidebar h3{
+    font-size: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.sidebar h4{
+	color: white;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10%;
+}
+
+
+.sidebar img{
+	grid-area: graphic;
+	border-radius: 50% ;
+    max-width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.body {
+    background-color: #ccc;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+
+/* iphone X */
+
+@media only screen and (max-width: 414px) {
+
+    .sidebar {
+        display: none;
+        width: 25%;
+        height: 100vh;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        background-color: rgba(150, 0, 0, 0.69);
+    }
+
+    .sidebar h1{
+        font-size: 20px;
+        text-align: center;
+    
+        color: #FFFFFF;
+    
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    .sidebar h3{
+        font-size: 15px;
+        text-align: center;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .main .top{
+        /* background-color: #fff6; */
+        background-color: transparent;
+        padding: 4%;
+    }
+
+    .main {
+        width: 100%;
+        height: 100vh;
+        background-color: transparent;
+    }
+    
+    .top h1{
+        font-weight: 600;
+        font-size: 24px;
+        color: white;
+        text-align: left;
+    }
+    
+    .top h3{
+        font-weight: 600;
+        font-size: 14px;
+        color: white;
+        text-align: right;
+    }
+}
+
+/* iphone X */
+
+@media only screen and (max-width: 768px) {
+
+
+}
