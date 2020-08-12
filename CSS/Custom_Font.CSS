@@ -2,7 +2,7 @@
   @import url(https://fonts.googleapis.com/css?family=Lato);
 
 .main {
-    height: 185vh;
+    height: 200vh;
     margin-top: 0px; /* Add a top margin to avoid content overlay */
     top: 0px;
     background-image: url("../images/goldenGateBW.jpg");
@@ -14,20 +14,19 @@
     text-align: center ;
     display: grid;
     align-content: top;
-    margin-top: 15vh;
 }
 
 h1 {
-    font-weight: 600;
+    font-weight: 100;
     font-size: 55px;
     color: white;
-    text-align: left;
-    padding-left: 100px;
-    padding-top: 25px;
+    text-align: center;
+    padding-left: 0px;
+    padding-top: 75px;
 }
 
 h3{
-    font-weight: 600;
+    font-weight: 100;
     font-size: 30px;
     color: white;
     text-align: right;
@@ -35,7 +34,7 @@ h3{
 }
 
 h4{
-    font-weight: 600;
+    font-weight: 100;
     font-size: 20px;
     color: #17252A;
     text-align: center;

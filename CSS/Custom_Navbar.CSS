@@ -24,10 +24,8 @@ nav{
   text-align: center;
 }
   nav name{
-    position: fixed;
-    top: 0;
-    /*margin: auto;*/
-    padding: 25px 0;
+    position: relative;
+    top: 20px;
     }
 
     nav name h11{
@@ -53,12 +51,14 @@ nav{
 
     nav ul li:hover{background: rgba(0,0,0,.15);}
     nav ul li:hover > ul{display: block;}
+
     nav ul li{
       float: left;
       -webkit-transition: all .2s ease-in-out;
       -moz-transition: all .2s ease-in-out;
       transition: all .2s ease-in-out;
     }
+
       nav ul li a{
         display: block; 
         padding: 30px 20px;
@@ -68,6 +68,7 @@ nav{
         text-decoration: none;
         text-transform: uppercase;
       }
+
       nav ul ul{
         display: none;
         background: #fff;
@@ -87,5 +88,5 @@ nav{
             top:0;
           }	
 
-    }
+    
 }
