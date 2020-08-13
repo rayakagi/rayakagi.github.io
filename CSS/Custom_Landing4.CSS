@@ -1,0 +1,50 @@
+
+
+.main {
+    height: 100vh;
+    margin-top: 0px; /* Add a top margin to avoid content overlay */
+    top: 0px;
+    background-image: url("../images/RayFace.jpg");
+    background-position: center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover ;
+    /*background-size: cover;*/
+    background-size: 100%;
+    -o-background-size: cover ;
+    display: grid;
+    align-content: top;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.main .mechanical {
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 300px;
+    padding-top: 250px;
+}
+
+.main .coder {
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 100px;
+    padding-top: 250px;
+}
+
+.main .h1{
+    text-align: center;
+    color: white;
+    font-weight: 200;
+    font-size: 60px;
+}
+
+.main .h3{
+    text-align: left;
+    color: white;
+    font-weight: 80;
+    font-size: 28px;
+}
+
+.main .coder .h3{
+    text-align: left;
+}

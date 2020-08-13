@@ -1,46 +1,27 @@
 
   @import url(https://fonts.googleapis.com/css?family=Lato);
 
-.main {
-    height: 200vh;
-    margin-top: 0px; /* Add a top margin to avoid content overlay */
-    top: 0px;
-    background-image: url("../images/RayFace.jpg");
-    background-position: center ;
-    -webkit-background-size: cover;
-    -moz-background-size: cover ;
-    background-size: cover ;
-    -o-background-size: cover ;
-    text-align: center ;
-    display: grid;
-    align-content: top;
-}
-
 h1 {
     font-weight: 100;
     font-size: 55px;
-    color: white;
-    text-align: center;
-    padding-left: 0px;
-    padding-top: 75px;
+    color: rgb(255, 255, 255);
 }
 
 h3{
     font-weight: 100;
     font-size: 30px;
-    color: white;
-    text-align: right;
-    padding-right: 100px;
+    color: rgb(255, 255, 255);
 }
 
 h4{
     font-weight: 100;
     font-size: 20px;
     color: #17252A;
-    text-align: center;
 }
 
 a {
     text-decoration: none;
     color: white;
 }
+
+
