@@ -4,7 +4,7 @@
     height: 100vh;
     margin-top: 0px; /* Add a top margin to avoid content overlay */
     top: 0px;
-    background-image: url("../images/RayFace.jpg");
+    background-image: url("../images/RayFace2.jpg");
     background-position: center ;
     -webkit-background-size: cover;
     -moz-background-size: cover ;
@@ -19,15 +19,15 @@
 
 .main .mechanical {
     text-align: center;
-    padding-left: 100px;
-    padding-right: 300px;
+    padding-left: 15%;
+    padding-right: 35%;
     padding-top: 250px;
 }
 
 .main .coder {
     text-align: center;
-    padding-left: 300px;
-    padding-right: 100px;
+    padding-left: 35%;
+    padding-right: 15%;
     padding-top: 250px;
 }
 
