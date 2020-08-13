@@ -1,11 +1,12 @@
 
 
 .main {
-    height: 100vh;
-    margin-top: 0px; /* Add a top margin to avoid content overlay */
+    min-height: 100vh;
+    /*margin-top: 0px; /* Add a top margin to avoid content overlay */
     top: 0px;
     background-image: url("../images/RayFace2.jpg");
-    background-position: center ;
+    background-position: 0px 25px;
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover ;
     /*background-size: cover;*/
@@ -33,18 +34,43 @@
 
 .main .h1{
     text-align: center;
-    color: white;
-    font-weight: 200;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
     font-size: 60px;
 }
 
 .main .h3{
     text-align: left;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: 80;
     font-size: 28px;
 }
 
-.main .coder .h3{
-    text-align: left;
+
+/* ipad */
+
+@media only screen and (max-width: 768px) {
+
+    .main .h1{
+        font-size: 30px;
+    }
+    
+    .main .h3{
+        font-size: 15px;
+    }
+
+}
+
+/* iphone X */
+
+@media only screen and (max-width: 376px) {
+
+    .main .h1{
+        font-size: 15px;
+    }
+    
+    .main .h3{
+        display: none;
+    }
+
 }

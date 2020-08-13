@@ -39,7 +39,7 @@ nav{
     position: relative;
     float: left;
     display: inline-table;
-    margin-left: 25px;
+    margin-left: 0px;
 
   }
     nav ul li{
@@ -89,3 +89,27 @@ nav{
           }	
 
     
+
+
+
+/* iphone X */
+
+@media only screen and (max-width: 375px) {
+        
+            nav name h11{
+                font-size: 18px;
+                color: black;
+                list-style: none;
+            }
+
+
+
+/* iphone X */
+
+@media only screen and (max-width: 768px) {
+        
+    nav name h11{
+        font-size: 18px;
+        color: black;
+        list-style: none;
+    }
