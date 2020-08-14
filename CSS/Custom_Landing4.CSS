@@ -1,22 +1,26 @@
 
 
 .main {
-    min-height: 100vh;
+    /*min-height: 60vh;*/
     /*margin-top: 0px; /* Add a top margin to avoid content overlay */
     top: 0px;
+    background-color: rgb(87, 135, 170);
     background-image: url("../images/RayFace2.jpg");
     background-position-y: 80px;
-    background-position-x: 0px; 
+    background-position-x: center; 
     background-repeat: no-repeat;
     -webkit-background-size: cover;
-    -moz-background-size: cover ;
+    -moz-background-size: cover;
     /*background-size: cover;*/
-    background-size: 100%;
+    /*background-size: 100%;*/
+    background-size: contain;
     -o-background-size: cover ;
     display: grid;
     align-content: top;
     grid-template-columns: 1fr 1fr;
     text-align: center;
+    padding-bottom: 150px;
+    padding-bottom: 20%;
 }
 
 .main .mechanical {
@@ -46,6 +50,21 @@
     font-weight: 80;
     font-size: 24px;
 }
+
+.main2 {
+    top: 0px;
+    background-color: rgb(245, 245, 245);
+}
+
+.main2 .h1{
+    text-align: right;
+
+}
+
+
+
+
+
 
 
 /* ipad */
