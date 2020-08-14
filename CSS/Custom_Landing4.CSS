@@ -22,6 +22,7 @@
     text-align: center;
     padding-bottom: 150px;
     padding-bottom: 20%;
+    max-height: 80vh;
 }
 
 .main .mechanical {
@@ -61,6 +62,7 @@
 .main2 {
     top: 0px;
     background-color: rgb(245, 245, 245);
+    min-height: 20vh;
 }
 
 .main2 h1{
