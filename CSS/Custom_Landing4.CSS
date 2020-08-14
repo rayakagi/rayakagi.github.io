@@ -74,14 +74,14 @@
 
 /* iphone X */
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 450px) {
 
     .main .mechanical {
-        padding-top: 100px;
+        padding-top: 150px;
     }
     
     .main .coder {
-        padding-top: 100px;
+        padding-top: 150px;
     }
 
     .main .h1{
