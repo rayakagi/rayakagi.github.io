@@ -5,7 +5,8 @@
     /*margin-top: 0px; /* Add a top margin to avoid content overlay */
     top: 0px;
     background-image: url("../images/RayFace2.jpg");
-    background-position: 0px 0px;
+    background-position-y: 70px;
+    background-position-x: 0px; 
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover ;
@@ -73,7 +74,7 @@
 
 /* iphone X */
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 375px) {
 
     .main .mechanical {
         padding-top: 100px;
