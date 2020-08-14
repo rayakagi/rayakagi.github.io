@@ -143,6 +143,11 @@
         font-size: 15px;
     }
 
+    .main2 h1{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
 }
 
 /* iphone X */
@@ -163,6 +168,11 @@
     
     .main .h3{
         font-size: 10px;
+    }
+
+    .main2 h1{
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 
 }
