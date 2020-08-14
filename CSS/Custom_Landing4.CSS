@@ -62,13 +62,13 @@
 .main2 {
     top: 0px;
     background-color: rgb(245, 245, 245);
-    min-height: 20vh;
+    max-height: 20vh;
 }
 
 .main2 h1{
     text-align: center;
-    padding-top: 75px;
-    padding-bottom: 100px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .main2 h3{
