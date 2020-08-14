@@ -1,4 +1,5 @@
 
+/* Main */
 
 .main {
     /*min-height: 60vh;*/
@@ -39,31 +40,83 @@
 
 .main .h1{
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 60px;
+    letter-spacing: 1px;
 }
 
 .main .h3{
     text-align: left;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: 80;
     font-size: 24px;
 }
+
+
+/* Main2 */
 
 .main2 {
     top: 0px;
     background-color: rgb(245, 245, 245);
 }
 
-.main2 .h1{
-    text-align: right;
+.main2 h1{
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 100px;
+}
 
+.main2 h3{
+    text-align: left;
 }
 
 
 
+/* Main3 */
 
+.main3 {
+    top: 0px;
+    background-color: rgb(245, 245, 245);
+    display: grid;
+    align-content: top;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "past present future"
+    ;
+}
+
+.main3 .past{
+    background-color: rgb(182, 218, 213);
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+
+.main3 .present{
+    background-color: rgb(157, 219, 211);
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+
+.main3 .future{
+    background-color: rgb(120, 221, 208);
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+
+.main3 h2{
+    text-align: center;
+}
+
+.main3 h4{
+    text-align: left;
+}
 
 
 
