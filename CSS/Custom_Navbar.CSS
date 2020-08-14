@@ -101,11 +101,11 @@ nav{
 @media only screen and (max-width: 768px) {
 
     nav name{
-        top: 25px;
+        top: 26px;
         }
 
     nav name h11{
-        font-size: 18px;
+        font-size: 22px;
     }
 }
 
