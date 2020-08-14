@@ -25,9 +25,12 @@ nav{
 }
   nav name{
     position: fixed;
+    /*text-align: middle;*/
     top: 20px;
     margin: center;
-    margin-left: -150px;
+    margin-left: -50%;
+    margin-right: -50%;
+    width: 100%;
     }
 
     nav name h11{
@@ -98,14 +101,11 @@ nav{
 @media only screen and (max-width: 768px) {
 
     nav name{
-        position: relative;
         top: 25px;
         }
 
     nav name h11{
         font-size: 18px;
-        color: black;
-        list-style: none;
     }
 }
 
@@ -114,13 +114,10 @@ nav{
 @media only screen and (max-width: 450px) {
 
     nav name{
-        position: relative;
         top: 28px;
         }
 
     nav name h11{
         font-size: 18px;
-        color: black;
-        list-style: none;
     }
 }
