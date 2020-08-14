@@ -16,7 +16,7 @@
 nav{
   position: fixed;
   top: 0;
-  left: 0;
+  left: 0px;
   width: 100%;
   background: #fff;
   box-shadow: 0 3px 10px -2px rgba(0,0,0,.1);
@@ -24,15 +24,16 @@ nav{
   text-align: center;
 }
   nav name{
-    position: relative;
+    position: fixed;
     top: 20px;
+    margin: center;
+    /*margin-left: -150px;*/
     }
 
     nav name h11{
         font-size: 30px;
         color: black;
         list-style: none;
-        letter-spacing: 2px;
     }
 
   nav ul{
@@ -41,8 +42,8 @@ nav{
     float: left;
     display: inline-table;
     margin-left: 0px;
-
   }
+
     nav ul li{
       float: left;
       -webkit-transition: all .4s ease-in-out;

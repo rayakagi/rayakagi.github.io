@@ -85,7 +85,7 @@
   
   .carousel {
 	/*float: right;					/* This causes the content to move to the right */
-    width: 75%;					/* We need to set the width whenever we float an element */
+    width: 75%;					/* We need to set the width whenever we float an element */                       
     color: black;
     position: relative;
     padding-top: 50%;
@@ -118,14 +118,14 @@
 
   .carousel__slide h1{
     text-align: center;
-    padding-top: 50px;
+    padding-top: 5%;
   }
 
   .carousel__slide h3{
     text-align: left;
     padding-left: 50px;
     padding-right: 50px;
-    padding-top: 50px;
+    padding-top: 5%;
   }
   
   .carousel__slide:nth-child(even) {
