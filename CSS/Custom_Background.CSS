@@ -1,0 +1,44 @@
+
+
+.background {
+    background-color: rgb(255, 221, 182);
+    top: 0px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    min-width: 100px;
+    margin: auto;
+}
+
+.background .h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.h2 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.education {
+    background-color: rgb(182, 246, 255);
+    top: 0px;
+    padding-left: 10%;
+    padding-right: 10%;
+    min-width: 100px;
+    margin: auto;
+}
+
+.thesis {
+    background-color: rgb(220, 182, 255);
+    top: 0px;
+    padding-left: 10%;
+    padding-right: 10%;
+    min-width: 100px;
+    margin: auto;
+}

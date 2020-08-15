@@ -208,6 +208,7 @@
     position: absolute;
     top: 0;
     margin-top: 37.5%;
+    margin-top: 35%;
     width: 4rem;            /*width of next and previous buttons*/
     height: 4rem;            /*height of next and previous buttons*/
     transform: translateY(-50%);
