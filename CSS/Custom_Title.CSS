@@ -2,11 +2,17 @@
 .title {
     background-color: rgb(255, 221, 182);
     top: 0px;
-    padding-top: 100px;
+    padding-top: 120px;
     padding-bottom: 20px;
     min-width: 100px;
     margin: auto;
     text-align: center;
+}
+
+.title .h3 {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
 }
 
 .project .h1 {
