@@ -26,7 +26,7 @@ nav{
   nav name{
     position: fixed;
     /*text-align: middle;*/
-    top: 20px;
+    top: 30px;
     margin: center;
     margin-left: -50%;
     margin-right: -50%;
@@ -101,7 +101,7 @@ nav{
 @media only screen and (max-width: 768px) {
 
     nav name{
-        top: 26px;
+        top: 34px;
         }
 
     nav name h11{
@@ -114,7 +114,7 @@ nav{
 @media only screen and (max-width: 450px) {
 
     nav name{
-        top: 28px;
+        top: 40px;
         }
 
     nav name h11{

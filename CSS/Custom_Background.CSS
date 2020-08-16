@@ -7,21 +7,22 @@
     padding-bottom: 20px;
     min-width: 100px;
     margin: auto;
+    text-align: center;
 }
 
 .background .h1 {
-    text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
+
 
 .h2 {
-    text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
+
 div {
-    padding-top: 10px;
+    padding-top: 0px;
     padding-bottom: 10px;
 }
 
