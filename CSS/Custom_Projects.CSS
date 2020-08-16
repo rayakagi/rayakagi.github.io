@@ -14,3 +14,13 @@
     display: flex;
     width: 100%;
 }
+
+.project .h1 {
+    padding-bottom: 20px;
+}
+
+.project .h3 {
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%
+}

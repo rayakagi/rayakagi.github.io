@@ -35,7 +35,7 @@ ul{
     font-size: 18px;
 }
 
-li {
+.li {
     margin-left: 25px
 }
 
@@ -68,7 +68,7 @@ p {
         font-size: 16px;
     }
     
-    li {
+    .li {
         margin-left: 25px
     }
     
@@ -102,7 +102,7 @@ p {
         font-size: 14px;
     }
     
-    li {
+    .li {
         margin-left: 25px
     }
     
