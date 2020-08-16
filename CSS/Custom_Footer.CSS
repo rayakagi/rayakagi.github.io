@@ -1,0 +1,31 @@
+footer {
+    background-color: rgb(245, 245, 245);
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+footer .h1 {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+footer .h3 {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer .icon i {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 3rem;
+    color: black;
+}
+
+footer .icon .ul {
+    display: inline ;
+}

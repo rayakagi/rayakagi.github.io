@@ -28,10 +28,14 @@
     width: 100%;
   }
 
-.container h4 {
+.container h3 {
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .container p {
     text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }

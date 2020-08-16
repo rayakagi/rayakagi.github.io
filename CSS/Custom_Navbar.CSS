@@ -34,7 +34,7 @@ nav{
     }
 
     nav name h11{
-        font-size: 30px;
+        font-size: 35px;
         color: black;
         list-style: none;
     }
@@ -105,7 +105,7 @@ nav{
         }
 
     nav name h11{
-        font-size: 22px;
+        font-size: 28px;
     }
 }
 
@@ -118,6 +118,6 @@ nav{
         }
 
     nav name h11{
-        font-size: 18px;
+        font-size: 22px;
     }
 }
