@@ -1,0 +1,62 @@
+.journey {
+    background-color: grey;
+    margin-bottom: 300px;
+}
+
+.journey .h1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.journey .h3 {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.journey .h4 {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15%;
+    padding-right: 10%;
+}
+
+past {
+    display: grid;
+    grid-template-columns: 100% 0%;	
+    grid-template-areas: 
+    "left right";
+    background-color: rgb(215, 215, 255);
+    padding-bottom: 30px;
+}
+
+.left {
+    grid-area: left;
+}
+
+.right {
+    grid-area: right;
+}
+
+
+present {
+    display: grid;
+    grid-template-columns: 100% 0%;	
+    grid-template-areas: 
+    "left right";
+    background-color: rgb(180, 180, 255);
+    padding-bottom: 30px;
+}
+
+future {
+    display: grid;
+    grid-template-columns: 100% 0%;	
+    grid-template-areas: 
+    "left right";
+    background-color: rgb(117, 117, 247);
+    padding-bottom: 30px;
+}
