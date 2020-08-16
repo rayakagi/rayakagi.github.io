@@ -12,7 +12,9 @@
 
 .table {
     display: flex;
-    width: 100%;
+    /*width: 100%;*/
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 /*.project .h1 {
@@ -24,3 +26,26 @@
     padding-left: 10%;
     padding-right: 10%
 }*/
+
+
+/* ipad */
+
+@media only screen and (max-width: 768px) {
+
+    .table {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+}
+
+/* iphone X */
+
+@media only screen and (max-width: 450px) {
+
+    .table {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+}
