@@ -16,8 +16,9 @@
 
 
 .h2 {
-    padding-top: 10px;
+    padding-top: 30px;
     padding-bottom: 10px;
+    text-align: center;
 }
 
 
@@ -42,4 +43,14 @@ div {
     padding-right: 10%;
     min-width: 100px;
     margin: auto;
+}
+
+
+img {
+    display: block;
+    width: 50%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: auto;
+    /*border-radius: 15%;*/
 }
