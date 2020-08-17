@@ -99,7 +99,11 @@ img {
     top: 0px;
     padding-left: 10%;
     padding-right: 10%;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     min-width: 100px;
     margin: auto;
+}
+
+.experience job {
+    padding-bottom: 40px;
 }
