@@ -1,7 +1,6 @@
 
 
 .background {
-    background-color: rgb(255, 221, 182);
     top: 0px;
     padding-top: 100px;
     padding-bottom: 20px;
@@ -10,15 +9,22 @@
     text-align: center;
 }
 
-.background .h1 {
-    padding-bottom: 20px;
+.h1 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
 }
 
 
 .h2 {
     padding-top: 30px;
     padding-bottom: 10px;
-    text-align: center;
+    text-align: left;
+}
+h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
 }
 
 
@@ -32,8 +38,37 @@ div {
     top: 0px;
     padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 30px;
     min-width: 100px;
     margin: auto;
+}
+
+.education degree {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-area:
+    "master bachelor";
+}
+
+bachelor,
+master {
+    margin: auto;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+.education coursework {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-area:
+    "column1 column2";
+}
+
+column1,
+column2 {
+    margin: auto;
+    padding-top: 0px;
+    padding-bottom: 30px;
 }
 
 .thesis {
@@ -41,6 +76,7 @@ div {
     top: 0px;
     padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 30px;
     min-width: 100px;
     margin: auto;
 }
@@ -51,6 +87,19 @@ img {
     width: 50%;
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-left: 3%;
+    padding-right: 3%;
     margin: auto;
+    float: left;
     /*border-radius: 15%;*/
+}
+
+.experience {
+    background-color: rgb(182, 246, 255);
+    top: 0px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 30px;
+    min-width: 100px;
+    margin: auto;
 }
