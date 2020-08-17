@@ -10,16 +10,14 @@
 }
 
 .h1 {
-    padding-top: 30px;
     padding-bottom: 10px;
     text-align: center;
 }
 
 
 .h2 {
-    padding-top: 30px;
     padding-bottom: 10px;
-    text-align: left;
+    text-align: center;
 }
 h3 {
     padding-top: 10px;
@@ -39,6 +37,7 @@ div {
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 30px;
+    padding-top: 30px;
     min-width: 100px;
     margin: auto;
 }
@@ -77,6 +76,7 @@ column2 {
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 30px;
+    padding-top: 30px;
     min-width: 100px;
     margin: auto;
 }
@@ -100,10 +100,12 @@ img {
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 50px;
+    padding-top: 30px;
     min-width: 100px;
     margin: auto;
 }
 
 .experience job {
-    padding-bottom: 40px;
+    padding-bottom: 60px;
+    padding-top: 60px;
 }
