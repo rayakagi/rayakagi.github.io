@@ -97,9 +97,9 @@
   
   .carousel__viewport {
     position: absolute;
-    top: 0%;       /*Changes top size of slide*/
+    top: 5%;       /*Changes top size of slide*/
     right: 0%;       /*Changes right size of slide*/
-    bottom: 0%;       /*Changes bottom size of slide*/
+    bottom: 5%;       /*Changes bottom size of slide*/
     left: 0%;       /*Changes left size of slide*/
     display: flex;
     overflow-x: scroll;
@@ -123,8 +123,8 @@
 
   .carousel__slide h3{
     text-align: left;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-top: 5%;
   }
   
